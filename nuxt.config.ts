@@ -2,4 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   rootDir: "src/",
+  modules: ["@nuxtjs/eslint-module"],
+  eslint: {},
 });
