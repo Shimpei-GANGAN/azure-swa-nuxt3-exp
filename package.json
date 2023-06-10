@@ -1,0 +1,33 @@
+{
+  "name": "azure-swa-nuxt3-exp",
+  "description": "Nuxt3 + Azure Static Web Apps experiment.",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": "^16.10.0 || >=18.0.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -o",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@types/node": "^18",
+    "eslint": "^8.42.0",
+    "nuxt": "^3.5.2"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
